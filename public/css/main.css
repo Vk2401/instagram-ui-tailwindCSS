@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Width and height for vertical scrollbar */
+::-webkit-scrollbar {
+    width: 4px; /* Width of the vertical scrollbar */
+    height: 4px; /* Height of the horizontal scrollbar */
+}
+
+/* Track for both horizontal and vertical scrollbar */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Thumb for both horizontal and vertical scrollbar */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* Thumb on hover for both horizontal and vertical scrollbar */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
