@@ -47,8 +47,11 @@
 
   <hr class=" border-[0.2px]" />
 
-  <!-- Stories -->
-  <section class="w-full ">
+
+  <!-- posts feeds -->
+  <section class="overflow-y-scroll h-[86vh] -z-10">
+      <!-- Stories -->
+  <div class="w-full ">
     <ul class="w-full bg-white  flex justify-between items-start space-x-3 overflow-x-scroll stories p-4">
       <li class="flex flex-none flex-col items-center space-y-1">
         <div class="bg-gradient-to-tr from-yellow-400 to-fuchsia-600 p-1 rounded-full">
@@ -121,9 +124,7 @@
       </li>
 
     </ul>
-  </section>
-  <!-- posts feeds -->
-  <section class="overflow-y-scroll h-[70.5vh] md:h-[72vh] -z-10">
+  </div>
     <div class="bg-gray-100">
       <div class="bg-white border rounded-sm w-full">
         <div class="flex items-center px-4 py-3">
@@ -302,7 +303,7 @@
 
   </section>
   <!-- footer -->
-  <footer class="bg-white h-[6vh] flex space-x-10 justify-between items-center px-4 py-3 absolute bottom-0 w-full">
+  <footer class="bg-white h-[6vh] flex space-x-10 justify-between items-center px-4 py-3 bottom-0 w-full">
     <div class="flex space-x-2">
 
       <div class="relative hover:cursor-pointer">
@@ -353,9 +354,9 @@
     </div>
     <div class="flex space-x-2">
 
-      <div class="relative hover:cursor-pointer">
+      <div class="relative hover:cursor-pointer h-full">
 
-        <img src="./public/imgs/vasan.jpg" alt="vasan" class="w-10 h-10 rounded-full object-cover" />
+        <img src="./public/imgs/vasan.jpg" alt="vasan" class="w-10 h-auto rounded-full object-cover" />
         <div class="absolute right-0 top-0.5 w-2 h-2 bg-red-500 rounded-full"></div>
 
       </div>
